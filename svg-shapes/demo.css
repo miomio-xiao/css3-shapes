@@ -1,0 +1,11 @@
+.svg {
+  margin: 0 114px;
+  cursor: pointer; }
+  .svg:hover .svg__circle {
+    fill: #1d9eff; }
+  .svg:hover .svg__rect {
+    fill: #fff; }
+  .svg:hover .svg__arc {
+    stroke: #fff; }
+
+/*# sourceMappingURL=demo.css.map */

@@ -1,0 +1,17 @@
+$blue: #1d9eff;
+
+.svg {
+  margin: 0 114px;
+  cursor: pointer;
+  &:hover {
+    .svg__circle {
+      fill: $blue;
+    }
+    .svg__rect {
+      fill: #fff;
+    }
+    .svg__arc {
+      stroke: #fff;
+    }
+  }
+}

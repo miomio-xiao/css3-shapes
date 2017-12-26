@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>svg shapes</title>
+  <link rel="stylesheet" href="demo.css">
+</head>
+
+<body>
+  <svg class="svg" width="192" height="192">
+    <defs>
+      <rect id="mrect" class="svg__rect" x="96" y="96" width="7.2" height="30.9" rx="5" fill="#1d9eff" />
+    </defs>
+    <circle class="svg__circle" cx="96" cy="96" r="90" stroke-width="6" stroke="#1d9eff" fill="none" />
+    <g id="rect__group">
+      <use xlink:href="#mrect" transform="rotate(0, 96, 96) translate(-3, 28)"></use>
+      <use xlink:href="#mrect" transform="rotate(40, 96, 96) translate(-3, 28)"></use>
+      <use xlink:href="#mrect" transform="rotate(80, 96, 96) translate(-3, 28)"></use>
+      <use xlink:href="#mrect" transform="rotate(120, 96, 96) translate(-3, 28)"></use>
+      <use xlink:href="#mrect" transform="rotate(160, 96, 96) translate(-3, 28)"></use>
+      <use xlink:href="#mrect" transform="rotate(200, 96, 96) translate(-3, 28)"></use>
+      <use xlink:href="#mrect" transform="rotate(240, 96, 96) translate(-3, 28)"></use>
+      <use xlink:href="#mrect" transform="rotate(280, 96, 96) translate(-3, 28)"></use>
+      <use xlink:href="#mrect" transform="rotate(320, 96, 96) translate(-3, 28)"></use>
+    </g>
+  </svg>
+  <svg class="svg" width="192" height="192">
+    <circle class="svg__circle" cx="96" cy="96" r="90" stroke-width="6" stroke="#1d9eff" fill="none" />
+    <path class="svg__arc" d="M65 50 A55 55 0 1 0 125 50" stroke="#1d9eff" stroke-width="8" stroke-linecap="round" fill="none"
+    />
+    <rect id="mrect" class="svg__rect" x="92" y="46" width="8" height="44" rx="5" fill="#1d9eff" />
+  </svg>
+</body>
+
+</html>
